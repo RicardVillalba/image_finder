@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Formik, Form, Field } from "formik";
 import "./components/Header.css";
+import "./components/Card.css";
+import "./components/Article.css";
 const App = () => {
   const [images, setImages] = useState([]);
   const open = (url) => window.open(url);
