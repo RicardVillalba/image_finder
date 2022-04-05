@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { Formik, Form, Field } from "formik";
 import "./components/Header.css";
 const App = () => {
+  const [images, setImages] = useState([]);
+  console.log({ images });
   return (
     <div>
       <header>
@@ -16,7 +19,7 @@ const App = () => {
               }
             );
             const data = await response.json();
-            console.log(data);
+            setImages(data.results);
           }}
         >
           <Form>
