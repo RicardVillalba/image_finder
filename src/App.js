@@ -40,7 +40,7 @@ const App = () => {
               }}
             >
               <img src={image.urls.regular} alt="foto" />
-              <p>{[image.description, image.alt_description].join("-")}</p>
+              <p>{[image.description, image.alt_description].join(" - ")}</p>
             </article>
           ))}
         </div>

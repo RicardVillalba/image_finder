@@ -6,5 +6,6 @@
 
 .center {
     column-count: 3;
-    width: 1200px;
+    max-width: 1200px;
+    margin: 0 10px 0 10px
 }

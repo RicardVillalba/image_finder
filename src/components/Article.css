@@ -1,6 +1,6 @@
 article {
     display: inline-block;
-    width: 270px;
+    width: 100%;
     transition: box-shadow 0.4s ease;
     margin: 40px 10px 0 10px;
     background-color: #fff;
@@ -15,6 +15,8 @@ article > img {
 
 article > p {
     margin: 10px 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
 article:hover {
